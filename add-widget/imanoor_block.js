@@ -1,6 +1,7 @@
-wp.blocks.registerBlockType('imanoor/custom-block',{
-    title:'imanoor custom block',
-    icon: 'hammer',
+wp.blocks.registerBlockType('brandName/custom-block',{
+
+    title:'افزودن دوره',
+    icon: 'welcome-learn-more',
     category:'design',
     attributes: {
         courseName:        {type:'string'},
@@ -142,4 +143,7 @@ wp.blocks.registerBlockType('imanoor/custom-block',{
             }))));
         }
     }
-})
+});
+
+
+
